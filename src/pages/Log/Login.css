@@ -1,0 +1,88 @@
+.signin{
+    font-family: "Comfortaa", serif;
+}
+
+.in-form {
+    position: relative;
+    border: 2px solid #d4d4d4;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    padding: 32px;
+    border-radius: 20px;
+}
+
+.in-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #191919;
+    text-align: start;
+    font-family: "Balsamiq Sans", serif;
+}
+
+.in-input {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.in-input input {
+    position: relative;
+    width: 100%;
+    padding: 0 15px 18px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 1px solid #d4d4d4;
+    cursor: pointer;
+    outline: none;
+}
+
+.in-input input:focus {
+    border-bottom: 1px solid #191919;
+    caret-color: #0f83b2;
+}
+
+.in-input input::placeholder {
+    color: #7f7f7f;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.in-input button {
+    background-color: #0f83b2;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 14.5px 0;
+    border-radius: 6px;
+}
+
+.in-input button:hover {
+    background-color: #ffe926;
+    color: #191919;
+}
+
+.dont {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.dont p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #191919;
+}
+
+.dont a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #0f83b2;
+}

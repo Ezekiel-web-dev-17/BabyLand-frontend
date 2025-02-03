@@ -1,0 +1,49 @@
+.faq-one p {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+.faq-one p a {
+    color: #171717;
+}
+
+.faq-one p span a {
+    color: #0f749d;
+}
+
+.faq-two {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.faq-two h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #191919;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+.arcodion {
+    padding: 30px;
+    border: 2px solid #d4d4d4;
+    font-family: "comfortaa", sans-serif;
+}
+
+.arcodion h5 {
+    font-weight: 700;
+    color: #191919;
+}
+
+.faq-click {
+    cursor: pointer;
+}
+
+.faq-click img {
+    transition: transform 0.8s ease-in-out;
+}
+
+.arcodion .arco-items.active img {
+    transform: rotate(180deg);
+}
+

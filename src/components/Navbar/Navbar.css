@@ -1,0 +1,9 @@
+nav {
+    font-family: "Comfortaa", serif;
+}
+
+.main-nav {
+    gap: 110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
